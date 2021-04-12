@@ -20,7 +20,7 @@
 7. After applying your settings, go back to the general Properties of the node and add a Topic according to your application and the data you want to receive.   (https://www.chirpstack.io/application-server/integrations/mqtt/)  
   ![pic06](https://github.com/hschoofs/chirpstack_integrations/blob/main/example_code/mqtt_node_red/pictures/pic_06.png "pic06")
 
-8. If everything went well, there sh ould be a little green box under your node saying "connected". 
+8. If everything went well, there should be a little green box under the node saying "connected". 
 
 9. You will get a JSON object from your MQTT node which you can filter with the function node and then save to a database with the Influx node.  
   ![pic07](https://github.com/hschoofs/chirpstack_integrations/blob/main/example_code/mqtt_node_red/pictures/pic_07.png "pic07")
