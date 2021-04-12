@@ -10,7 +10,7 @@ const client = mqtt.connect('mqtts://exampleserver.com',{ port: '8883', username
 });
 
 client.on('connect', () => {
-  client.subscribe('application/495/device/+/event/up');    //change according to your chirpstack application name 
+  client.subscribe('application/495/device/+/event/up');    //change according to your chirpstack application name
 });
 
 client.on('message', (topic, message) => {
@@ -25,7 +25,7 @@ client.on('message', (topic, message) => {
 });
 
 
-// the following part is only for decoding the received data, not necessery if the data is already decoded on the chirpstack server
+// the following part is only for decoding the received data, not necessary if the data is already decoded on the chirpstack server
 
 function Decoder(bytes) {
 
