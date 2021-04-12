@@ -1,4 +1,4 @@
-Node.js Chirpstack MQTT-Integration Example Code
+### Node.js Chirpstack MQTT-Integration Example Code ###
 
 
 Basic Node.js application to receive data from a Chirpstack Server through MQTTS. If your TLS certificates are not stored in the same directory as the node application, you can also provide a path to them when creating the client object.
