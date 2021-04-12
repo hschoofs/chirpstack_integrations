@@ -1,4 +1,4 @@
-HTTP Integration
+### HTTP Integration ###
 
 
 This node application receives data via HTTP requests from a chirpstack server. The data is then inserted into a local influx database.
